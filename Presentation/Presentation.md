@@ -1,15 +1,8 @@
----
-title: "Presentation"
-author: "Kevin Cannon"
-date: "November 1, 2016"
-output: 
-  html_document: 
-    keep_md: yes
----
+# Presentation
+Kevin Cannon  
+November 1, 2016  
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 # Introduction
 The purpose of this project is to explore Gross Domestic Product data from countries around the world in comparison with educational data.
@@ -30,9 +23,57 @@ This code, written in R, will download two raw CSV files from worldbank and crea
 # Make File
 This make file contains the code to gather, clean, and analyze the data.
 *Note: Set working directory to match the repository cloned from GitHub or the new location of the Case Study files. An example directory is given below.
-```{r}
+
+```r
 setwd("D:\\My Documents\\GitHub\\Case_Study_1\\")
 source("makefile.R")
+```
+
+```
+## Loading required package: gdata
+```
+
+```
+## gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+```
+
+```
+## 
+```
+
+```
+## gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+```
+
+```
+## 
+## Attaching package: 'gdata'
+```
+
+```
+## The following object is masked from 'package:stats':
+## 
+##     nobs
+```
+
+```
+## The following object is masked from 'package:utils':
+## 
+##     object.size
+```
+
+```
+## The following object is masked from 'package:base':
+## 
+##     startsWith
+```
+
+```
+## Loading required package: plyr
+```
+
+```
+## Warning: NAs introduced by coercion
 ```
 
 # Conclusion
